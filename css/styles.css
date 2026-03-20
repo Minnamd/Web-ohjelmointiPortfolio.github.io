@@ -11475,3 +11475,20 @@ html {
   color: #87196f;
   text-decoration: none;
 }
+
+.carousel-item img {
+  height: 400px;
+  width: 100%;
+  object-fit: contain;
+  background-color: #f8f9fa;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
